@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: sans-serif; 
+  color: rgb(237, 97, 202);  
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  text-align: center;
+}
+.grid-container {
+    display: grid;
+    margin-bottom: 5px;  
+    grid-template-columns: 1fr minmax(200px, 300px);
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    min-height: 150px;
+    grid-column: span 1; 
+}
+
+.header {
+    grid-column: 1/4; 
+    background-color:rgb(228, 144, 225);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+   
+body {
+  background-image: url('images/bobbiedekat.jpg');
+  background-repeat: no-repeat, repeat;
+    background-position: center, center;
+    background-size: auto, cover;
+    height: 100%;
+    margin: 0; }
+
+    .klasse-link {
+      color: blue;
+      text-decoration: none;
+      transition: color 0.3s ease; 
+    }
+    
+    .klasse-link:visited {
+      color:blueviolet; 
+      text-decoration: none;   
+    }
+    .klasse-link:hover {
+      color:aqua !important;
+    }
+    .klasse-link:active {
+      color: purple !important;   
+    }
+
+    #titel {
+        color:darkmagenta;
+        font-size: 60px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 0;
+        background-image: url('images/kattenachtergrond.jpg');
+    }
+    .titelparagraaf {
+        color:rgb(219, 49, 154);
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .kop-stijl {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(196, 167, 201);
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .banaan{
+      color:blue
+    }
+    .banaan:hover{
+        color:aqua;
+    }
+    a:hover {
+      color:aqua 
+    }
+    a:visited {
+      color:blueviolet 
+    }
+    a:active {
+      color:coral;
+    }
+body {
+    background-color: rgb(236, 189, 226); 
+}
